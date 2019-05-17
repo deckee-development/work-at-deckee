@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Deckee Job Application</title>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/prop-types@15.6.2/prop-types.min.js"></script>
+  <script src="https://unpkg.com/styled-components@4.1.3/dist/styled-components.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+<script type="text/babel">
+
+  const ApplicationSection = styled.div`
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px #ddd;
+    border: 1px solid #eee;
+    background: #fafafa;
+  `;
+
+  class Drive extends React.Component {
+    render() {
+      const { selected, onSelected } = this.props;
+      return (
+        <ApplicationSection>
+          <h1>Drive</h1>
+          <p>How driven are you? Some questions that might help guide what we're looking for:</p>
+          <ul>
+            <li>
+              What are you currently chasing? What is your most wildly important goal?
+            </li>
+            <li>
+              What are you doing to achieve your most important goals?
+            </li>
+            <li>
+              What are you trying to achieve with your career?
+            </li>
+            <li>
+              Where do you want to be in 5 years?
+            </li>
+            <li>
+              What other industry activities do you take part in? (meetups, blogging, presenting
+              talks)
+            </li>
+            <li>
+              What is your personal website if you have one?
+            </li>
+            <li>
+              What are your Stackoverflow, Github, Codepen, Linkedin et. al. profiles?
+            </li>
+          </ul>
+          <p>Add your answer here</p>
+        </ApplicationSection>
+      );
+    }
+  }
+  Drive.propTypes = {}
+
+  class CriticalThinking extends React.Component {
+    render() {
+      const { selected, onSelected } = this.props;
+      return (
+        <ApplicationSection>
+          <h1>Critical Thinking</h1>
+          <p>How do you think about your craft? Give us some examples of the following:</p>
+          <ul>
+            <li>
+              What are some concepts or practices that the majority of the industry agrees with,
+              but you don't.
+            </li>
+            <li>
+              Where are your blind-spots? What are your largest known-unknowns and how do you
+              manage them?
+            </li>
+            <li>
+              What are your biggest weaknesses? How do you cover your gaps?
+            </li>
+            <li>
+              In 5 years time, what will the front-end look like?
+            </li>
+            <li>
+              In 10 years time, what will tech in general look like? Of current advances such as
+              AI, drones and self driving cars, what will deliver, what are overinflated ideas?
+            </li>
+          </ul>
+          <p>Add your answer here</p>
+        </ApplicationSection>
+      );
+    }
+  }
+  CriticalThinking.propTypes = {}
+
+  class Education extends React.Component {
+    render() {
+      const { selected, onSelected } = this.props;
+      return (
+        <ApplicationSection>
+          <h1>Education</h1>
+          <p>
+            Tell us about your formal education history (links are fine). Would you do anything
+            differently, if you had the chance?
+          </p>
+          <p>Add your answer here</p>
+        </ApplicationSection>
+      );
+    }
+  }
+  Education.propTypes = {}
+
+  class Knowledge extends React.Component {
+    render() {
+      const { selected, onSelected } = this.props;
+      return (
+        <ApplicationSection>
+          <h1>Knowledge</h1>
+          <p>What does your skill portfolio look like? Some questions to help guide your answer:</p>
+          <ul>
+            <li>
+              Describe your skill level at React.
+            </li>
+            <li>
+              Apart from React, what other skills are you looking forward to bringing to Deckee?
+            </li>
+            <li>
+              What other technologies are you familiar with that we use? (Refer to original job
+              listing)
+            </li>
+            <li>
+              What technologies do we use that you are interested in working with but haven't
+              previously?
+            </li>
+          </ul>
+          <p>How are you improving your smarts? Discuss some of the following:</p>
+          <ul>
+            <li>
+              What are you currently learning, formally or informally, skill based or otherwise?
+            </li>
+            <li>
+              What are you planning for the future as far as skills, knowledge and experiences.
+            </li>
+            <li>
+              What are your favourite books? What do you recommend and in what contexts?
+            </li>
+            <li>
+              What other information sources do you find are best for learning for you?
+            </li>
+          </ul>
+          <p>Add your answer here</p>
+        </ApplicationSection>
+      );
+    }
+  }
+  Knowledge.propTypes = {}
+
+  class Experience extends React.Component {
+    render() {
+      return (
+        <ApplicationSection>
+          <h1>Experience</h1>
+          <p>
+            Share your employment history with us (links are fine!). What did you like and/or
+            dislike about your recent positions? It would be fantastic if you also gave them a
+            rating! Some other factors that we're interested to know:
+          </p>
+          <ul>
+            <li>
+              What is your level of distributed team experience?
+            </li>
+            <li>
+              What do you feel are the most beneficial and most detrimental aspects of a
+              remote-first team?
+            </li>
+            <li>
+              What do you find most challenging when remote? How do you solve these challenges?
+            </li>
+            <li>
+              What strategies do you employ to 'bridge the divide' when you work remotely?
+            </li>
+          </ul>
+          <p>Add your answer here</p>
+        </ApplicationSection>
+      );
+    }
+  }
+  Experience.propTypes = {}
+
+  class Examples extends React.Component {
+    render() {
+      const { selected, onSelected } = this.props;
+      return (
+        <ApplicationSection>
+          <h1>Examples</h1>
+          <p>Show us a bit of a portfolio of your work!</p>
+          <ul>
+            <li>
+              Do you have code examples available that show the standard of your work in the wild?
+            </li>
+            <li>
+              What are some of your own projects? What would you do with any of these if you had 1
+              extra hour per day to work on them? What did you learn from each of these projects?
+            </li>
+            <li>
+              Have you got examples of what you have previously built in a paid job? Explain any
+              that you are proud of, but can't show due to proprietary reasons.
+            </li>
+            <li>
+              Have you got any other examples of your work?
+            </li>
+          </ul>
+          <p>Add your answer here</p>
+        </ApplicationSection>
+      );
+    }
+  }
+  Examples.propTypes = {}
+
+  class App extends React.Component {
+    constructor() {
+      super();
+      this.state = {};
+    }
+
+    render() {
+      const { selectedItem } = this.state;
+      return (
+        <div>
+          <div>
+            <h1>Welcome to the 'Deckee front-end team application' starter.</h1>
+
+            <p>
+              Task: Please use this HTML starter to produce a combined application, resume and
+              portfolio. We use this format to provide you with a way to showcase your skills,
+              creativity and personality in a more relatable and familiar format. Don't take things
+              too seriously. We're more interested in the honesty of your responses than seeing you
+              paint a perfect picture of yourself.
+            </p>
+
+            <p>
+              We've added guides as to what information we want to see for each section, but
+              otherwise, you're free to do what you want. The only constraint we have is you need
+              to keep your submission to one HTML file. There are no other rules and we're open
+              to everything else! Extra points for technical React usage (maybe a service
+              architecture via the context API?) for producing a concise and visually stunning
+              styling system or for anything else which is really impressive!
+            </p>
+
+            <p>
+              How long should you spend on this? Just think of it as a normal job application and do
+              what you feel is adequate. The level of work you put in is not a factor, we’ll mainly
+              be looking at how you approach it.
+            </p>
+
+            <p>
+              Please send any questions or completed applications (links to repositories, hosted
+              versions or email attachments) to development@deckee.com.
+            </p>
+
+            <p>
+              Good luck and have fun!!
+            </p>
+          </div>
+          <Drive />
+          <CriticalThinking />
+          <Education />
+          <Knowledge />
+          <Experience />
+          <Examples />
+        </div>
+      )
+    }
+  }
+
+  ReactDOM.render(
+    <App />,
+    document.getElementById('root'),
+  );
+</script>
+
+</html>
