@@ -96,22 +96,35 @@
   }
   CriticalThinking.propTypes = {};
 
-  class Education extends React.Component {
+  class Examples extends React.Component {
     render() {
       const { selected, onSelected } = this.props;
       return (
         <ApplicationSection>
-          <h1>Education</h1>
-          <p>
-            Tell us about your formal education history (links are fine). Would you do anything
-            differently, if you had the chance?
-          </p>
+          <h1>Examples</h1>
+          <p>Show us a bit of a portfolio of your work!</p>
+          <ul>
+            <li>
+              Do you have code examples available that show the standard of your work in the wild?
+            </li>
+            <li>
+              What are some of your own projects? What would you do with any of these if you had 1
+              extra hour per day to work on them? What did you learn from each of these projects?
+            </li>
+            <li>
+              Have you got examples of what you have previously built in a paid job? Explain any
+              that you are proud of, but can't show due to proprietary reasons.
+            </li>
+            <li>
+              Have you got any other examples of your work?
+            </li>
+          </ul>
           <p>Add your answer here</p>
         </ApplicationSection>
       );
     }
   }
-  Education.propTypes = {};
+  Examples.propTypes = {};
 
   class Knowledge extends React.Component {
     render() {
@@ -190,35 +203,22 @@
   }
   Experience.propTypes = {};
 
-  class Examples extends React.Component {
+  class Education extends React.Component {
     render() {
       const { selected, onSelected } = this.props;
       return (
         <ApplicationSection>
-          <h1>Examples</h1>
-          <p>Show us a bit of a portfolio of your work!</p>
-          <ul>
-            <li>
-              Do you have code examples available that show the standard of your work in the wild?
-            </li>
-            <li>
-              What are some of your own projects? What would you do with any of these if you had 1
-              extra hour per day to work on them? What did you learn from each of these projects?
-            </li>
-            <li>
-              Have you got examples of what you have previously built in a paid job? Explain any
-              that you are proud of, but can't show due to proprietary reasons.
-            </li>
-            <li>
-              Have you got any other examples of your work?
-            </li>
-          </ul>
+          <h1>Education</h1>
+          <p>
+            Tell us about your formal education history (links are fine). Would you do anything
+            differently, if you had the chance?
+          </p>
           <p>Add your answer here</p>
         </ApplicationSection>
       );
     }
   }
-  Examples.propTypes = {};
+  Education.propTypes = {};
 
   class App extends React.Component {
     constructor() {
@@ -245,7 +245,7 @@
               otherwise, you're free to do what you want. The only constraint we have is you need
               to keep your submission to one HTML file. There are no other rules and we're open
               to everything else! Extra points for technical React usage (maybe a service
-              architecture via the context API?) for producing a concise and visually stunning
+              architecture via the context API?), for producing a concise and visually stunning
               styling system or for anything else which is really impressive!
             </p>
 
@@ -266,10 +266,10 @@
           </div>
           <Drive />
           <CriticalThinking />
-          <Education />
+          <Examples />
           <Knowledge />
           <Experience />
-          <Examples />
+          <Education />
         </div>
       )
     }

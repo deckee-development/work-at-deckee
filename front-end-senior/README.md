@@ -4,13 +4,13 @@
 
 Imagine being one of the earliest team members at Waze, building a product that would eventually be used by millions of people worldwide. What if you had the chance to design and build something that changes an entire industry? 
 
-That's what we're trying to do here at Deckee – build the 'Waze for Boats'. One of a kind software that is changing the way boaters plan, explore, socialise, and stay informed and safe on the water.
+That's what we're doing here at Deckee. We're building the 'Waze for Boats' – one of a kind software that is changing the way boaters plan, explore, socialise, and stay informed and safe on the water.
 
-We're off to a great start and we are beginning to build out our development team and looking for people that can help us pull that off.
+We're off to a great start and we are beginning to build out our development team with talented people that can help us pull off this big vision.
 
 # About You
 
-Ultimately, you are already set up as a consultant, contractor or freelancer (read: _a professional operator_) or are looking to set yourself up in a professional capacity.
+You are already set up as a consultant, contractor or freelancer (read: _a professional operator_) or you are looking to set yourself up in a professional capacity.
 
 You are a strong critical thinker. You can always argue either side of a technical decision because you always approach it from both sides. 
 
@@ -28,11 +28,11 @@ You have strong opinions about your craft and the industry, but you enjoy hearin
 
 **We help boaters make better decisions, so they can have better and safer experiences on the water.**
 
-We are an early stage start up. There are obviously a lot of risks, but huge potential upside. 
+We are an early stage start up. There are risks that come with that, but huge potential upside.
 
 We are a remote-first team, based primarily between Newcastle Australia and San Francisco California.
 
-We have partnerships and are working closely with a number of governments and official bodies in Australia.
+We work closely with government organisations and maritime authorities in Australia.
 
 We are an affirmative action employer. 
 
@@ -52,10 +52,10 @@ There are no limitations as to what you can take on. While the role is initially
 
 ## Required
 
-We're less interested in your skills than we are your drive and critical thinking. Beyond everything else, it is your professional approach to your work which we want. Skill wise though, we're looking for the following:
+We're less interested in your skills than we are your drive and critical thinking. Beyond everything else, it is your professional approach to your work which we want. Skill wise however, we're looking for the following:
 
 - You write clean and easy to understand modular code. You are an advocate for abstractions and are skilled at producing simple declarative interfaces that expose the functionality of your well written imperative code.
-- You don't just know the ins and out of React, you understand the core principles and motivations for using such library.
+- You don't just know the ins and out of React, you understand the core principles and motivations for using such a library.
 - You have top skills with CSS and have knowledge how styled components and CSS modules work.
 - You work well as an internal consultant when implementing designs. You are skilled at breaking designs into specific factors, obtaining prioritization of each factor based on complexity and costs, and can offer alternatives when they exist.
 - You are up to date with the current ES features and know when and how you should use them.
@@ -79,7 +79,11 @@ Any experience with any of the following technologies we use or are in our roadm
 
 # Whats on offer
 
-Remuneration obviously includes the lifestyle benefits of working in a location agnostic, asynchronous, remote role. Equity incentives are also available and negotiable based on experience and a pro-rata rate between $78,000 and $90,000 is available based on your expertise.
+Remuneration includes the lifestyle benefits of working in a location agnostic, asynchronous, remote role.
+
+Equity incentives are available and negotiable based on experience.
+
+A pro-rata rate between $78,000 and $90,000 is available based on your expertise.
 
 **We are also open to part-time workers, weekenders and equity-only positions. Want to get involved but not in a full-time capacity, pitch us your thoughts!**
 
