@@ -85,11 +85,8 @@ Remuneration obviously includes the lifestyle benefits of working in a location 
 
 # How to apply
 
-We have an `application.html` 'starter' available [here](https://github.com/deckee-development/work-at-deckee/tree/master/front-end-senior). As per the instructions, your only constraint is to keep everything in the one HTML file. How to deliver the file is up to you, but we're happy to take PR's, links to cloned repositories (if you'd rather not fork), have you host it somewhere and share the link, or just by email attachment.
+To get started, please introduce yourself via the form at https://forms.gle/FFcnuZNtq6aqJGXV9.
 
-We encourage you to email us prior to starting on the application to quickly introduce yourself, especially if you have any questions or if you're unsure of anything but it is not a requirement. Any feedback on the application process is also very welcome as this is a new approach for us.
-
-Have fun, and we're looking forward to seeing what you come up with!!
 
 </article>
 
